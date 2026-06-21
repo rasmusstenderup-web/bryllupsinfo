@@ -326,7 +326,8 @@ h3 {
   text-align: left;
 }
 
-.notice-wide {
+.notice-grid > .notice-wide,
+.notice-grid > .notice:nth-child(4) {
   grid-column: 1 / -1;
 }
 
